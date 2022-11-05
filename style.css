@@ -1,0 +1,219 @@
+@media only screen and (max-width: 600px) {
+    .gallery-row {
+        flex-direction: column;
+    }
+
+    .hero-text {
+        font-size: 0.8em;
+    }
+
+    .latest-stuff {
+        display: flex;
+        flex-direction: column;
+        font-size: 0.8em;
+    }
+    
+    .project-item > img {
+        width: 50%;
+        height: 40%;
+    }
+
+    .project-item > figcaption {
+        font-size: 0.8em;
+    }
+
+    .logo-div {
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .headerlinks {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+}
+
+body {
+    margin: 0;
+}
+
+.latest-stuff {
+    display: flex;
+}
+
+.bg-dark-blue-900 {
+    background-color: #121826;
+}
+
+.box-shadow {
+    padding: 5px;
+    box-shadow: 5px 5px 8px #121826;
+}
+
+.font-dark-blue {
+    color: #121826;
+}
+
+.bg-pale-blue-100 {
+    background-color: #e9f0ff;
+}
+
+.bg-grey-100 {
+    background-color: rgb(192, 192, 192);
+}
+
+.hero-section {
+    gap: 1%;
+}
+
+.hero-img {
+    max-width: 70%;
+    height: auto;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-mute {
+    color: rgb(126, 126, 126);
+    font-size: 0.9em;
+}
+
+.text-small {
+    font-size: 0.95em;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-start {
+    text-align: start;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+.my-32 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.py-24 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.py-18 {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.py-8 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.px-32 {
+    padding-left: 32px;
+    padding-right: 32px; 
+}
+
+.px-16 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.px-12 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.no-underline:link {
+    text-decoration: none;
+}
+
+.hover-underline:hover {
+    text-decoration: underline;
+}
+
+.font-courier-new {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.border-1-white {
+    border: solid 1px white;
+}
+
+.border-4-dark-blue {
+    border: solid 4px #121826;
+}
+
+.border-radius-10 {
+    border-radius: 10%;
+}
+
+.object-fit {
+    object-fit: cover;
+    width: 15%;
+}
+
+#gDialogImg {
+    max-width: 70%;
+    height: auto;
+}
+
+.gallery-row {
+    gap: 8%;
+}
+
+.gallery-row > img {
+    height: 200px;
+    width: 200px;
+    margin: 8px;
+}
+
+.gallery-row > img:hover {
+    cursor: pointer;
+}

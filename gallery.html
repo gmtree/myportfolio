@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>gmtree</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="bg-dark-blue-900 flex justify-between py-18 px-12">
+            <div class="flex justify-center items-center logo-div"  >
+                <a href="index.html"><img src="./logo.svg" class="border-1-white" alt="" width=200 height=50 style="margin-left: 10px;padding: 10px"></a>
+            </div>
+            </div>
+            <div class="flex justify-center items-center headerlinks">
+                <a href="blog.html" class="text-white py-8 px-16 no-underline hover-underline font-courier-new">Blog</a>
+                <a href="gallery.html" class="text-white py-8 px-16 no-underline hover-underline font-courier-new">Gallery</a>
+                <a href="projects.html" class="text-white py-8 px-16 no-underline hover-underline font-courier-new">Projects</a>
+                <a href="https://github.com/gmtree" class="text-white py-8 px-16 no-underline hover-underline font-courier-new">Github</a>
+            </div>
+        </header>
+        <section class="bg-pale-blue-100 flex justify-evenly items-center py-18 px-16">
+            <div class="flex-column justify-center items-center">
+                <h3 class="font-courier-new font-dark-blue">Gallery</h3>
+                <p>Check out these pixel arrangements.</p>
+            </div>
+        </section>
+        <section class="bg-pale-blue-100 flex-column justify-evenly py-18">
+            <div class="gallery-row flex justify-center items-center px-12">
+                <img class="gallery-img object-fit box-shadow border-radius-10" id="DALL-E 2 Edited Dapitan Landscape" src="gallery-imgs/dalle-dapitan-landscape.jpg" alt=""/>
+                <img class="gallery-img object-fit box-shadow border-radius-10" id="DALL-E 2 'Nara' Generated Tree" src="gallery-imgs/dalle-tree-480w.jpg" alt=""/>
+                <img class="gallery-img object-fit box-shadow border-radius-10" id="CoRRECT Robo Try #1" src="gallery-imgs/correctrobo-480w.jpg" alt=""/>
+            </div>
+            <div class="gallery-row flex justify-center items-center px-12">
+                <img class="gallery-img object-fit box-shadow border-radius-10" id="CoRRECT Movement and the Three Point Agenda" src="gallery-imgs/correctplusthreepointagenda-800w.jpg" alt=""/>
+                <img class="gallery-img object-fit box-shadow border-radius-10" id="Island in a Bottle" src="gallery-imgs/island-in-a-bottle-480w.jpg" alt=""/>
+                <img class="gallery-img object-fit box-shadow border-radius-10" id="View of Dapitan from Ilihan Hill" src="gallery-imgs/dapitan-ilihan-hill-view-800w.jpg" alt=""/>
+            </div>
+            <div class="gallery-row flex justify-center items-center px-12">
+                <img class="gallery-img object-fit box-shadow border-radius-10" id="Ilihan Hill Forest" src="gallery-imgs/dapitan-ilihan-hill-forest-800w.jpg" alt=""/>
+                <img class="gallery-img object-fit box-shadow border-radius-10" id="Plankton in Blender" src="gallery-imgs/plankton-other-800w.jpg" alt=""/>
+                <img class="gallery-img object-fit box-shadow border-radius-10" id="Blender Donut" src="gallery-imgs/donut-480w.jpg" alt=""/>
+            </div>
+            <div class="gallery-row flex justify-center items-center px-12">
+                <img class="gallery-img object-fit box-shadow border-radius-10" id="Best Friends are Green" src="gallery-imgs/green-800w.jpg" alt=""/>
+                <img class="gallery-img object-fit box-shadow border-radius-10" id="Plogging Dapitan" src="gallery-imgs/PloggingDapitan-800w.jpg" alt=""/>
+                <img class="gallery-img object-fit box-shadow border-radius-10" id="Sinulog in Dapitan (2019)" src="gallery-imgs/Sinulog-Dapitan-2019-800w.jpg" alt=""/>
+            </div>
+        </section>
+        <dialog id="galleryDialog">
+            <form method="dialog">
+                <figure class="flex-column justify-center items-center">
+                    <img class="box-shadow border-radius-10" id="gDialogImg" src="gallery-imgs/dalle-dapitan-landscape.jpg"/>
+                    <figcaption class="py-18 px-16" id="gDialogFigCaption"></figcaption>
+                    <button value="cancel" class="flex text-align-center items-center py-8 px-16 my-32">Close</button>
+                </figure>
+            </form>
+        </dialog>
+        <footer class="bg-pale-blue-100 flex justify-center items-center py-18">
+            <p class="font-courier-new font-dark-blue" style="text-align: center">2022. Made by Gino Garcia. All rights reserved.</p>
+        </footer>
+        <script src="js/galleryDialog.js" async defer></script>
+    </body>
+</html>
